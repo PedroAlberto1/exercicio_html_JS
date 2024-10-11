@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Formulário com Validação</h1>
+
+    <form id="meuFormulario" action="javascript:void(0);">
+        <!-- Campo A -->
+        <label for="campoA">Campo A:</label>
+        <input type="number" id="campoA" name="campoA" required><br><br>
+
+        <!-- Campo B -->
+        <label for="campoB">Campo B:</label>
+        <input type="number" id="campoB" name="campoB" required><br><br>
+
+        <!-- Botão de Submissão -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Div para mensagens de validação -->
+    <div id="mensagem"></div>
+
+    <!-- Vinculando o arquivo JavaScript no final do body -->
+    <script src="main.js"></script>
+
+</body>
+</html>

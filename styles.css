@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização do título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilização do formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilização dos rótulos */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilização dos campos de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #009432; /* Cor ao focar */
+}
+
+/* Estilização do botão */
+button {
+    background-color: #009432;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007a29; /* Cor ao passar o mouse */
+}
+
+/* Estilização das mensagens de validação */
+#mensagem {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    background-color: #d4edda; /* Fundo claro para sucesso */
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    background-color: #f8d7da; /* Fundo claro para erro */
+}
